@@ -29,5 +29,11 @@ public class Main {
             } else {
                 System.out.println("Стелажи разные");
             }
+
+        int[] weights = {90, 91, 93, 92, 85, 87, 88, 89, 0, 0, 0, 0};
+        for (int i = 0; i < weights.length - 1 && weights[i + 1] != 0; i++){
+            System.out.println(weights[i + 1] - weights[i]);
+        }
+
         }
     }
